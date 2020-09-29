@@ -1,36 +1,22 @@
-import { render } from "@testing-library/react";
-import React, { Component } from "react";
+import React from "react";
+import ironhorse from '../images/ironhorse.jpeg'
+import './Email.css';
+import SignupForm from '../SignupForm/SignupForm.js'
+import MapContainer from '../Map/Map.js'
+
+
 
 export default class Email extends React.Component {
   render() {
     return (
       <div>
-        <form class="signup-form">
-          <h3>Sign up to receive our newsletter!</h3>
-          <div>
-            <label for="first-name">First name</label>
-            <input
-              placeholder="First Name"
-              type="text"
-              name="first-name"
-              id="first-name"
-            />
-          </div>
-          <div>
-            <label for="last-name">Last name</label>
-            <input
-              type="text"
-              name="last-name"
-              id="last-name"
-              placeholder="Last Name"
-            />
-          </div>
-          <div>
-            <label for="username">Email</label>
-            <input type="text" name="username" id="username" />
-          </div>
-          <button type="submit">Sign Up</button>
-        </form>
+          <img id='ironhorse-flyer' src={ironhorse} alt='iron horse flyer' />
+          <p><small>Above Graphics Designed by Prairie Wind:  pwindesign@aol.com</small></p>
+          <br />
+          <p><em><b>Iron Horse Antiques & Appraisers</b></em>, established in 1978 by Jim and Debbie McArdle, specializes in pre-1900 American & European antiques and currently sells at various antiques shows around the country.  In addition we are auction agents, we buy entire estates, and we also buy gold, silver / sterling and platinum. </p>
+        <SignupForm />
+        <br />
+        <MapContainer />
       </div>
     );
   }

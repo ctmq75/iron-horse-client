@@ -1,0 +1,13 @@
+.shop-address {
+    border: 1px solid black;
+    max-width: 20%;
+    border-radius: 5%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#shop-top {
+    display: flex;
+
+}
