@@ -62,10 +62,10 @@ class SignupForm extends Component {
         <h2>Sign up for our Mailing List</h2>
         <form className="signup__form" onSubmit={e => this.handleSubmit(e)}>
           <label htmlFor="full_name">Full Name:</label>
-          <input type="text" name="full_name" id="full_name" placeholder="John Smith" value={this.state.full_name}
+          <input required type="text" name="full_name" id="full_name" placeholder="John Smith" value={this.state.full_name}
             onChange={e => this.nameChanged(e.target.value)}/>
           <label htmlFor="email">Email:</label>
-          <input type="text" name="email" id="email" placeholder="jsmith@domain.com" value={this.state.email}
+          <input required type="text" name="email" id="email" placeholder="jsmith@domain.com" value={this.state.email}
             onChange={e => this.emailChanged(e.target.value)}/>
           
           <div className="signup__buttons">
