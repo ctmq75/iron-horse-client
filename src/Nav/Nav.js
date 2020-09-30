@@ -22,10 +22,10 @@ export default class Nav extends React.Component {
             <a href="/about">About</a>
           </li>
           <li className='navList-item'>
-            <a href="https://www.ironhorsemilitaryantiques.com/">Iron Horse Military Antiques</a>
+            <a target="_blank" rel='noopener noreferrer' href="https://www.ironhorsemilitaryantiques.com/">Iron Horse Military Antiques</a>
           </li>
           <li className='navList-item'>
-            <a href="http://www.ironhorseestatesales.com/" target="_blank" rel="noopener noreferrer">Iron Horse Estate Sales</a>
+            <a target="_blank" rel='noopener noreferrer' href="http://www.ironhorseestatesales.com/" target="_blank" rel="noopener noreferrer">Iron Horse Estate Sales</a>
           </li>
         </ul>
       </div>
