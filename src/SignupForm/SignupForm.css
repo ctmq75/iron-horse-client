@@ -1,0 +1,25 @@
+.signup {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  background-color: #3d070a;
+
+}
+
+.signup h2 {
+    padding-top: 50%;
+}
+
+#signup-flex {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.signup__buttons {
+    padding-bottom: 50%;
+}

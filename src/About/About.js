@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import antiques1 from "../images/antiques1.jpeg";
+import './About.css'
 
 export default class About extends Component {
   render() {
     return (
-      <div>
-        <h4>*About*</h4>
+      <div id='about-container'>
+        <div id='about-inner'>
+          <h1 id='our-story'>Our Story</h1>
         <p>
           <b>Debbie McArdle</b> of <b>Iron Horse Antiques & Appraisers</b> has
           been an antiques collector since 1970 and an antiques dealer since
           1978. Her husband, Jim, joined her in the business in 1996. They
           specialize in pre-1900 American antiques and currently sell at{" "}
-          <b>Roscoe Woodstock Antique Mall</b> in Woodstock, Illinois as well as
+          <b><a target='_blank' rel='noopener noreferrer' href='http://roscoewoodstockantiquemall.com/'>Roscoe Woodstock Antique Mall</a></b> in Woodstock, Illinois as well as
           at various antiques shows around the country.
         </p>
         <p>
@@ -99,9 +101,10 @@ export default class About extends Component {
         </p>
         <br />
         <br />
-        <div>
-        <h5>WE BUY, SELL AND TRADE:</h5>
-                    <ul>
+        <div id='list-div'>
+                    <ul id='about-list'>
+                    <h2><u>WE BUY, SELL AND TRADE</u> :</h2>
+
                         <li>Fine Art / including paintings, watercolors & engravings</li>
                         <li>Folk Art</li>
                         <li>Civil War Diaries, Documents, Maps, Weapons</li>
@@ -129,15 +132,22 @@ export default class About extends Component {
                         <li>Pre-1920 Toys and Games</li>
                         <li>Gold, Silver and Platinum</li>
                         <li>Coins</li>
+                        <li>...and much, much more!</li>
+                        <h2>GIVE US A CALL AT 815.575.1272</h2>
+
                     </ul>
-                <p>...and much, much more!</p>
-                <h5>GIVE US A CALL AT 815.575.1272</h5>
+
                 </div>
 
-                <h3><u>Features on NBC Milwaukee's "Morning Blend"</u></h3>
+      </div>
+      <div id='youtube-container'>
+                <h1><u>Features on NBC Milwaukee's "Morning Blend"</u></h1>
+                <div id='youtube-flex'>
                 <iframe title='NBC Milwaukees Morning Blend. September 2013' width="560" height="315" src="https://www.youtube.com/embed/y7rt6ssLFaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe title='January 28, 2013' width="560" height="315" src="https://www.youtube.com/embed/E-ZVxk-ee8w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe title='October 1, 2012' width="560" height="315" src="https://www.youtube.com/embed/H31Su_l9P5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
       </div>
     );
   }

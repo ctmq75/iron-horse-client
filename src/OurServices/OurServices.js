@@ -1,34 +1,37 @@
 import React, { Component } from "react";
 import './OurServices.css';
 
+
 export default class OurServices extends Component {
     render() {
         return (
-            <div>
-                <p>*Our Services*</p>
-                <div>
-                    <h4>WE BUY</h4>
+            <div id='services-container'>
+                <div id='services-inner'>
+                <p id='services-title'>Our Services</p>
+                <div className='services-card'>
+                    <h4><u>WE BUY</u></h4>
                     <p>If we can't use what you have for sale, we probably know who can.  Give us a call! <br />
                     In addition to antiques, we buy gold, sterling silver and platinum - from sterling flatware to broken gold chains to coins!  The corner gold stores can't beat our prices!
                     </p>
                 </div>
-                <div>
-                    <h4>WE REPRESENT THE NATION'S BEST AUCTION HOUSES</h4>
+                <div className='services-card'>
+                    <h4><u>WE REPRESENT THE NATION'S BEST AUCTION HOUSES</u></h4>
                     <p>When our clients have rare &/or valuable items to sell, we work with the top reputatble auction houses in the United States to get the most money for you & negotiate the best possible consignment terms.</p>
                 </div>
-                <div>
-                    <h4>WE APPRAISE</h4>
+                <div className='services-card'>
+                    <h4><u>WE APPRAISE</u></h4>
                     <p>Debbie is a member of the New England Appraisers Association and complies with all industry standards as outlined in the Uniform Standards of Professional Appraisal Practice (USPAP), frequently working with lawyers, trust officers, estate executors / administrators and insurance companies.</p>
                 </div>
-                <div>
-                    <h4>WE CONDUCT ESTATE SALES</h4>
+                <div className='services-card'>
+                    <h4><u>WE CONDUCT ESTATE SALES</u></h4>
                     <p><a type="1" href="http://www.ironhorseestatesales.com/" target="_blank" rel="noopener noreferrer">Iron Horse Estate Sales</a> - Estate sale & liquidation professionals serving <b>northern Illinois & southern Wisconsin.</b>  Will travel beyond for exceptional estates. </p>
                 </div>
                 <br />
                 <br />
-                <div>
-                    <h5>WE BUY, SELL AND TRADE:</h5>
-                    <ul id='buy-list'>
+                <div id='list-div'>
+                    <ul id='about-list'>
+                    <h2><u>WE BUY, SELL AND TRADE</u> :</h2>
+
                         <li>Fine Art / including paintings, watercolors & engravings</li>
                         <li>Folk Art</li>
                         <li>Civil War Diaries, Documents, Maps, Weapons</li>
@@ -56,12 +59,16 @@ export default class OurServices extends Component {
                         <li>Pre-1920 Toys and Games</li>
                         <li>Gold, Silver and Platinum</li>
                         <li>Coins</li>
-                    </ul>
-                </div>
-                <p>...and much, much more!</p>
-                <h5>GIVE US A CALL AT 815.575.1272</h5>
+                        <li>...and much, much more!</li>
+                        <h2>GIVE US A CALL AT 815.575.1272</h2>
 
-                
+                    </ul>
+
+                </div>
+
+
+
+                </div>
             </div>
         )
     }

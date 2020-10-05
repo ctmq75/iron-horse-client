@@ -1,3 +1,82 @@
 #buy-list {
     background-color: white;
 }
+
+
+#services-title {
+    font-family: 'Ruthie', cursive;
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#services-container {
+    margin: 0 auto;
+    padding-top: 10%;
+    background-size: overflow;
+    background-color: #fffdd0;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+
+}
+#list-div {
+    padding-bottom: 25%;
+    padding-top: 5%;
+}
+
+#about-list li {
+    list-style-type: square;
+    text-align: left;
+    font-size: large;
+    line-height: 3em;
+    
+    
+}
+#services-inner {
+    max-width: 90%;
+    margin: 0 auto;
+    color: #3d070a;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+    text-align: left;
+    
+    
+
+}
+
+.services-card {
+    border: 1px solid #3d070a;
+    border-radius: 15px;
+    margin-bottom: 5em;
+    padding: 2em;
+    background-color: #3d070a;
+    color: white;
+}
+.services-card h4 {
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+
+
+#services-inner {
+    max-width: 80%;
+    margin: 0 auto;
+    color: #3d070a;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+    text-align: left;
+    
+    
+
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+    #services-inner {
+        max-width: 50%;
+    }
+    
+    }

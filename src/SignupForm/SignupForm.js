@@ -1,4 +1,6 @@
 import React, { Component } from  'react';
+import './SignupForm.css';
+
 
 class SignupForm extends Component {
     constructor(props) {
@@ -59,17 +61,19 @@ class SignupForm extends Component {
   render() {
     return (
       <div className="signup">
-        <h2>Sign up for our Mailing List</h2>
+        <h2>Sign up for our Mailing List!</h2>
         <form className="signup__form" onSubmit={e => this.handleSubmit(e)}>
+          <div id='signup-flex'>
           <label htmlFor="full_name">Full Name:</label>
           <input required type="text" name="full_name" id="full_name" placeholder="John Smith" value={this.state.full_name}
             onChange={e => this.nameChanged(e.target.value)}/>
+            <br />
           <label htmlFor="email">Email:</label>
           <input required type="text" name="email" id="email" placeholder="jsmith@domain.com" value={this.state.email}
             onChange={e => this.emailChanged(e.target.value)}/>
-          
+          </div>
           <div className="signup__buttons">
-            <button>Cancel</button>
+            <br />
             <button type="submit" >Add me!</button>
           </div>  
         </form>

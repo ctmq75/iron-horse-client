@@ -1,13 +1,68 @@
 .shop-address {
     border: 1px solid black;
-    max-width: 20%;
+    max-width: 45%;
     border-radius: 5%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #3d070a;
+    color: white;
 
 }
 
 #shop-top {
     display: flex;
+
+}
+
+#gallery {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+#list-div {
+    padding-bottom: 25%;
+    padding-top: 5%;
+}
+
+#about-list li {
+    list-style-type: square;
+    text-align: left;
+    font-size: large;
+    line-height: 3em;
+    
+    
+}
+#shop-title {
+    font-family: 'Ruthie', cursive;
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#shop-container {
+    margin: 0 auto;
+    padding-top: 10%;
+    background-size: overflow;
+    background-color: #fffdd0;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+
+}
+
+@media screen and (min-width: 320px) {
+
+.shop-address {
+    max-width: 40%;
+    padding: 2em
+
+
+}
+
+#img-slider{
+    padding: .5em;
+}
+
+
 
 }

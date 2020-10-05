@@ -1,43 +1,58 @@
 import React, { Component } from "react";
-import './Shop.css';
-import shop1  from '../images/shop1.jpeg';
-import shop2  from '../images/shop2.jpeg';
-import shop3  from '../images/shop3.jpeg';
-import shop4  from '../images/shop4.jpeg';
-import shop5  from '../images/shop5.jpeg';
-import shop6  from '../images/shop6.jpeg';
-import shop7  from '../images/shop7.jpeg';
+import "./Shop.css";
+import MapContainer from "../Map/Map.js";
 
+import Gallery from "../Gallery/Gallery.js";
+import Slider from '../Slider/Slider.js'
 
 export default class Shop extends Component {
-    render() {
-        return (
-            <div>
-                <p>*The Shop*</p>
-                <section id="shop-top">
-                <div className='shop-address'>
-                    <p>Roscoe Woodstock Antique Mall <br />
-                    890  Lake Avenue <br />
-                    Woodstock, IL 60098<br />
-                    815.334.8960</p>
-                </div>
-                <div className='shop-address'>
-                    <p>Open 7 days a week <br />
-                    *Booth #M7<br />
-                    NO REPRODUCTIONS - NO CRAFTS<br />
-                    35,000 Sq. Ft. Of QUALITY ANTIQUES!</p>
-                </div>
-                </section>
-                <section>
-                    <img src={shop1} alt="shop item" />
-                    <img src={shop2} alt="shop item" />
-                    <img src={shop3} alt="shop item" />
-                    <img src={shop4} alt="shop item" />
-                    <img src={shop5} alt="shop item" />
-                    <img src={shop6} alt="shop item" />
-                    <img src={shop7} alt="shop item" />
-                </section>
+  render() {
+    return (
+      <div id='shop-container'>
+        <section>
+        <p id='shop-title'>The Shop</p>
+          <section id="shop-top">
+            <div className="shop-address">
+              <p>
+                <b>Roscoe Woodstock Antique Mall </b><br />
+                890 Lake Avenue <br />
+                Woodstock, IL 60098
+                <br />
+                815.334.8960
+              </p>
             </div>
-        )
-    }
+            <div className="shop-address">
+              <p>
+                <b>Open 7 days a week!</b> <br />
+                *Booth #M7
+                <br />
+                NO REPRODUCTIONS - NO CRAFTS
+                <br />
+                35,000 Sq. Ft. Of QUALITY ANTIQUES!
+              </p>
+            </div>
+          </section>
+          <section id='img-slider'>
+              <Slider />
+          </section>
+
+
+        </section>
+      </div>
+    );
+  }
 }
+
+
+/*
+          <section id="map-section">
+                    <h3 id='location-title'>Location:</h3>
+          <MapContainer />
+        </section>
+
+
+
+                  <section id='gallery'>
+            <Gallery />
+          </section>
+*/

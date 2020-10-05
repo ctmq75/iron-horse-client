@@ -1,0 +1,96 @@
+#about-container {
+    margin: 0 auto;
+    padding-top: 10%;
+    background-size: overflow;
+    background-color: #fffdd0;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+
+}
+
+#our-story {
+    text-align: center;
+    font-family: 'Ruthie', cursive;
+    font-size: 5em;
+    padding-bottom: 10%;
+
+}
+
+#about-inner {
+    max-width: 90%;
+    margin: 0 auto;
+    color: #3d070a;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+    font-weight: 600;
+    text-align: left;
+    
+
+}
+
+#about-inner a {
+    text-decoration: none;
+}
+
+
+
+#about-list{
+    background-color: #3d070a;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    color: white;
+
+    
+
+
+}
+
+#list-div {
+    padding-bottom: 25%;
+    padding-top: 5%;
+}
+
+#about-list li {
+    list-style-type: square;
+    text-align: left;
+    font-size: large;
+    line-height: 3em;
+    
+    
+}
+
+#youtube-container {
+    padding-top: 25%;
+    background-color: #3d070a;
+    color: #fffdd0;
+    width: 100%;
+}
+
+#youtube-flex {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#youtube-flex iframe {
+    padding: 5% 0%;
+
+}
+
+
+@media screen and (min-width: 480px) {
+    #about-inner {
+        max-width: 60%;
+        margin: 0 auto;
+        color: #3d070a;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 2.5em;
+        font-weight: 600;
+        text-align: left;
+        
+    
+    }
+
+}

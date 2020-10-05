@@ -1,11 +1,100 @@
 #navList {
+  list-style-type: none;
+  padding-top: .9em;
+  margin: 0;
+  overflow: hidden;
+  background-color: #3d070a;
+  display: flex;
+  justify-content: space-around;
+}
+#ihmilitary {
+  display: none
+}
+#ihestatesales{
+  display: none;
+}
+
+.navList-item {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fffdd0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+
+  
+}
+
+#nav-container {
+  background-color: #3d070a;
+  color: #fffdd0;
+  margin-top: 0px;
+  
+
+  
+}
+
+#nav-title {
+  font-family: 'Ruthie', cursive;
+  font-size: 2.5em;
+  padding: .9em;
+  margin: 0px;
+  text-align: center;
+
+}
+
+#ironhorse-gif {
+  display: none;
+}
+
+#nav-shop {
+  display: none;
+
+}
+
+#heading-flex {
+  padding-top: .5em;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media screen and (min-width: 320px) {
+  #ihmilitary {
+    display: inline;
+}
+#ihestatesales{
+    display: inline;
+}
+
+#ironhorse-gif {
+
+  display: none;
+}
+
+#nav-shop {
+
+  display: none;
+
+
+}
+
+
+#navList {
     list-style-type: none;
+    padding-top: .9em;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #333;
-    border-top: 1px solid white;
+    background-color: #3d070a;
     display: flex;
+    justify-content: space-around;
   }
   
   .navList-item {
@@ -14,13 +103,12 @@
   
   li a {
     display: block;
-    color: white;
+    color: #fffdd0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
 
@@ -28,8 +116,54 @@
   }
 
   #nav-container {
-    background-color: #333;
-    color: white;
+    background-color: #3d070a;
+    color: #fffdd0;
+    margin-top: 0px;
+    
+
     
   }
 
+  #nav-title {
+    font-family: 'Ruthie', cursive;
+    font-size: 2.5em;
+    padding: .9em;
+    margin: 0 auto;
+
+  }
+
+  #ironhorse-gif {
+    width: 12%;
+    height: auto;
+  }
+
+  #nav-shop {
+    width: 12%;
+    height: auto;
+
+  }
+
+  #heading-flex {
+    padding-top: .5em;
+    display: flex;
+    justify-content: space-between;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #ironhorse-gif {
+    width: 12%;
+    height: auto;
+    display: inline-flex;
+  }
+  
+  #nav-shop {
+    width: 12%;
+    height: auto;
+    display: inline-flex;
+  
+  
+  }
+  
+}
