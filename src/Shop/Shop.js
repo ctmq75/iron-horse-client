@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./Shop.css";
-import MapContainer from "../Map/Map.js";
 
-import Gallery from "../Gallery/Gallery.js";
 import Slider from '../Slider/Slider.js'
 
 export default class Shop extends Component {

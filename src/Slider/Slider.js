@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Slider.css';
 import SimpleImageSlider from "react-simple-image-slider";
 import shop1  from '../images/shop1.jpeg';

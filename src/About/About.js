@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import antiques1 from "../images/antiques1.jpeg";
 import './About.css'
+import MapContainer from '../Map/Map.js'
 
 export default class About extends Component {
   render() {
@@ -99,6 +100,11 @@ export default class About extends Component {
             Iron Horse Millitary Antiques
           </a>
         </p>
+
+        <section id='map'>
+          <h4><u>Location:</u></h4>
+        <MapContainer />
+        </section>
         <br />
         <br />
         <div id='list-div'>
@@ -143,9 +149,9 @@ export default class About extends Component {
       <div id='youtube-container'>
                 <h1><u>Features on NBC Milwaukee's "Morning Blend"</u></h1>
                 <div id='youtube-flex'>
-                <iframe title='NBC Milwaukees Morning Blend. September 2013' width="560" height="315" src="https://www.youtube.com/embed/y7rt6ssLFaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe title='January 28, 2013' width="560" height="315" src="https://www.youtube.com/embed/E-ZVxk-ee8w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe title='October 1, 2012' width="560" height="315" src="https://www.youtube.com/embed/H31Su_l9P5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title='NBC Milwaukees Morning Blend. September 2013' width="560" height="315" src="https://www.youtube.com/embed/y7rt6ssLFaI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title='January 28, 2013' width="560" height="315" src="https://www.youtube.com/embed/E-ZVxk-ee8w" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title='October 1, 2012' width="560" height="315" src="https://www.youtube.com/embed/H31Su_l9P5w" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 </div>
       </div>

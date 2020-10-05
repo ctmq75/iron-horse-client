@@ -1,3 +1,9 @@
+#map{
+    display: block;
+    padding: 5%;
+    margin-bottom: 45%;
+}
+
 #about-container {
     margin: 0 auto;
     padding-top: 10%;

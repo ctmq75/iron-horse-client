@@ -2,7 +2,6 @@ import React from "react";
 import ironhorse from "../images/ironhorse.jpeg";
 import "./Email.css";
 import SignupForm from "../SignupForm/SignupForm.js";
-import MapContainer from "../Map/Map.js";
 
 export default class Email extends React.Component {
   render() {
