@@ -1,16 +1,20 @@
 .shop-address {
     border: 1px solid black;
-    max-width: 45%;
+    max-width: 75%;
     border-radius: 5%;
     margin-right: auto;
     margin-left: auto;
     background-color: #3d070a;
     color: white;
+    padding: 1em;
+    margin-top: 1em;
+
 
 }
 
 #shop-top {
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -43,14 +47,14 @@ margin: 0 auto;
 
 #shop-container {
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 2%;
     background-size: overflow;
-    background-color: #fffdd0;
+    background-color: #e9e25e;
     background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
 
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 520px) {
 
 .shop-address {
     max-width: 40%;
@@ -58,6 +62,12 @@ margin: 0 auto;
 
 
 }
+#shop-top {
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 #img-slider{
     padding: .5em;

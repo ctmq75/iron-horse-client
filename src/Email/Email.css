@@ -51,10 +51,10 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 
 #homepage {
     background-color: silver;
-background-image: linear-gradient(335deg, #fffdd0 23px, transparent 23px),
-linear-gradient(155deg, #fffdd0 23px, transparent 23px),
-linear-gradient(335deg, #fffdd0 23px, transparent 23px),
-linear-gradient(155deg, #fffdd0 23px, transparent 23px);
+background-image: linear-gradient(335deg,#e9e25e 23px, transparent 23px),
+linear-gradient(155deg, #e9e25e 23px, transparent 23px),
+linear-gradient(335deg, #e9e25e 23px, transparent 23px),
+linear-gradient(155deg, #e9e25e 23px, transparent 23px);
 background-size: 58px 58px;
 background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }

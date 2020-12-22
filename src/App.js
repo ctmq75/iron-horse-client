@@ -13,17 +13,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Nav />
-
       <Route exact path="/about" component={About} />
       <Route exact path="/" component={Email} />
       <Route exact path="/ourServices" component={OurServices} />
       <Route exact path="/millitary" component={Millitary} />
       <Route exact path="/shop" component={Shop} />
-
-
-
-
-
       </BrowserRouter>
     </div>
   );

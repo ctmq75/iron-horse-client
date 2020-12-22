@@ -35,7 +35,7 @@ export default class Nav extends React.Component {
               rel="noopener noreferrer"
               href="https://www.ironhorsemilitaryantiques.com/"
             >
-              Iron Horse Military Antiques
+              IH Military Antiques
             </a>
           </li>
           <li className="navList-item" id='ihestatesales'>
@@ -44,7 +44,7 @@ export default class Nav extends React.Component {
               rel="noopener noreferrer"
               href="http://www.ironhorseestatesales.com/"
             >
-              Iron Horse Estate Sales
+              IH Estate Sales
             </a>
           </li>
         </ul>
