@@ -2,7 +2,7 @@
 
 # Iron Horse Antiques
 
-![Alt text](src/images/ss.jpeg?raw=true "Optional Title")
+![Alt text](ironhorsess.jpeg?raw=true "Optional Title")
 
 ## Description
 
