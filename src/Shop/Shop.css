@@ -1,7 +1,7 @@
 .shop-address {
     border: 1px solid black;
     max-width: 75%;
-    border-radius: 5%;
+    border-radius: 3px;
     margin-right: auto;
     margin-left: auto;
     background-color: #3d070a;
@@ -15,7 +15,10 @@
 #shop-top {
     display: flex;
     flex-direction: column;
-
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 4em;
 }
 
 #gallery {
