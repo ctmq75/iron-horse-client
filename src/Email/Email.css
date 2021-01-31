@@ -78,6 +78,7 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 #blurb-container {
     backdrop-filter: blur(5px);
+    padding: 25vh;
 
 }
 }
