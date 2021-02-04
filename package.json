@@ -10,12 +10,15 @@
     "google-maps-react": "^2.0.6",
     "react": "^16.13.1",
     "react-bnb-gallery": "^1.4.4",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-simple-image-slider": "^1.0.4",
-    "react-slideshow-image": "^3.3.0"
+    "react-slideshow-image": "^3.3.0",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

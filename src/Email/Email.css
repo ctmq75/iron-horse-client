@@ -73,12 +73,24 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 #lilblurb {
     font-weight: 900;
     margin: 0 auto;
-    padding: 8em 0;
-    max-width: 60%;
+    padding: 2em 0;
+    max-width: 100%;
 }
 #blurb-container {
     backdrop-filter: blur(5px);
     padding: 25vh;
 
 }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+#lilblurb {
+    max-width: 50%;
+    padding: 8em 0;
+
+}
+
 }

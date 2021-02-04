@@ -49,6 +49,12 @@ li a:hover {
   margin: 0px;
   text-align: center;
 
+
+}
+#nav-title a {
+  text-decoration: none;
+  color: #e9e25e;
+
 }
 
 #ironhorse-gif {
@@ -62,7 +68,7 @@ li a:hover {
 
 #heading-flex {
   padding-top: .5em;
-  display: flex;
+  display: grid;
   justify-content: space-between;
 
 }
@@ -146,7 +152,6 @@ li a:hover {
 
   #heading-flex {
     padding-top: .5em;
-    display: flex;
     justify-content: space-between;
 
   }

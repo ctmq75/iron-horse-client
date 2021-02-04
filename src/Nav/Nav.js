@@ -10,20 +10,14 @@ export default class Nav extends React.Component {
       <div id="nav-container">
         <div id='heading-flex'>
           <img id="ironhorse-gif" src={horseicon} alt="iron horse gif" />
-          <h3 id="nav-title">Iron Horse Antiques & Appraisers</h3>
-          <img id="nav-shop" src={flippedhorse} alt="interior of shop" />
-        </div>
-
-        <ul id="navList">
+          <h3 id="nav-title"><a href="/">Iron Horse Antiques & Appraisers</a></h3>
+          <ul id="navList">
           <li className="navList-item">
-            <a href="/">Home</a>
-          </li>
-          <li className="navList-item">
-            <a href="/shop">Our Shop</a>
+            <a href="/shop">Shop</a>
           </li>
           <li className="navList-item">
             <a className="active" href="/ourServices">
-              Our Services
+              Services
             </a>
           </li>
           <li className="navList-item">
@@ -47,8 +41,17 @@ export default class Nav extends React.Component {
               IH Estate Sales
             </a>
           </li>
-        </ul>
+          </ul>
+        </div>
+
+
       </div>
     );
   }
 }
+
+/*
+          <img id="nav-shop" src={flippedhorse} alt="interior of shop" />
+
+
+*/
